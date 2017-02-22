@@ -21,10 +21,10 @@ which python
 ls
 pwd
 pip install -r requirements.txt
-
+deactivate
 #Running unittest
 
-python2.7 test.py
+python test.py
         '''
     }
     stage('Q/A Test Results')

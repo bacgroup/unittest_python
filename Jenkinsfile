@@ -8,7 +8,7 @@ node{
         sh '''
 #Deployment Virtualenv
 
-virtualenv -p python3 env
+virtualenv env
 . env/bin/activate
 which python
 pip install --upgrade pip

@@ -6,6 +6,8 @@ stage('Build')
 
 virtualenv -p python3 env
 . env/bin/activate
+ls
+pwd
 pip install -r requirements.txt
 
 #Running unittest

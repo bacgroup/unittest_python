@@ -14,7 +14,7 @@ node{
         sh '''
 #Deployment Virtualenv
 
-virtualenv -p python2.7 env
+virtualenv -p python3 env
 . env/bin/activate
 which python
 pip install --upgrade pip
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 #Running unittest
 
-python test.py
+python2.7 test.py
         '''
     }
     stage('Q/A Test Results')

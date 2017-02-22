@@ -11,10 +11,10 @@ stage('Build')
 virtualenv -p python3 env
 . env/bin/activate
 which python
-pip install --upgrade pip
+pip3 install --upgrade pip
 ls
 pwd
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 #Running unittest
 

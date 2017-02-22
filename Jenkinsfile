@@ -23,8 +23,7 @@ pwd
 pip install -r requirements.txt
 deactivate
 #Running unittest
-
-python test.py
+echo `python test.py`
         '''
     }
     stage('Q/A Test Results')

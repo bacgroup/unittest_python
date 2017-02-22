@@ -17,7 +17,7 @@ node{
 virtualenv -p python3 env
 . env/bin/activate
 which python
-pip install --upgrade pip
+#pip install --upgrade pip
 ls
 pwd
 pip install -r requirements.txt

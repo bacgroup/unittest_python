@@ -14,7 +14,7 @@ node{
         sh '''
 #Deployment Virtualenv
 
-virtualenv env
+virtualenv -p python2.7 env
 . env/bin/activate
 which python
 pip install --upgrade pip

@@ -25,7 +25,7 @@ class TestSequenceFunctions(unittest.TestCase):
             self.assertTrue(element in self.seq)
 
     def test_upper(self):
-        self.assertEqual('Daniel'.upper(), 'DANIEL')
+        self.assertEqual('Daniel'.upper(), 'Omar')
 
 if __name__ == '__main__':
     unittest.main(

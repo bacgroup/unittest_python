@@ -15,7 +15,7 @@ class TestSequenceFunctions(unittest.TestCase):
 
     def test_choice(self):
         so = ['GNU/Linux','Windows','OSX',]
-        value = 'GNU/Linux'
+        value = 'Linux'
         self.assertTrue(value in so)
 
     def test_sample(self):

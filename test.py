@@ -3,6 +3,7 @@ import random
 import unittest
 import xmlrunner
 
+
 class TestSequenceFunctions(unittest.TestCase):
 
     def setUp(self):

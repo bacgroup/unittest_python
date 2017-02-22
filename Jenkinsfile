@@ -1,4 +1,8 @@
 node{
+stage('Integrate')
+{
+    git 'https://github.com/bacgroup/unittest_python.git'
+}
 stage('Build')
 {
     sh '''
@@ -15,7 +19,7 @@ pip install -r requirements.txt
 python test.py
     '''
 }
-stage('Collect QA Test Results')
+stage('Q/A Test Results')
 {
     junit 'test-reports/*'
 }

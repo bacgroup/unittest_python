@@ -1,4 +1,10 @@
 node{
+    stage('Prepare')
+    {
+        ws{
+            deleteDir()
+        }
+    }
     stage('Integrate')
     {
         git 'https://github.com/bacgroup/unittest_python.git'
